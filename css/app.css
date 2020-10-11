@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.headers button{
+  color:red;
+  background-color: antiquewhite;
+  font-family:fantasy;
+  border-radius: 20%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+button:hover{
+  cursor: pointer;
+}
+.victory{
+  text-align: center;
+  font-size: xx-large;
+  color:green;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.game-over{
+  text-align: center;
+  font-size: xx-large;
+  color:red;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
